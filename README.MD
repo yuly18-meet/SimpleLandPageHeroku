@@ -1,4 +1,4 @@
-SO KIDS!
+<B> SO KIDS! </B>
 
 
 ! you clone this repo
@@ -7,21 +7,26 @@ SO KIDS!
 
 ! run commands:
 
-git init
-git add .
-git commit -m "first commit"
-heroku create YOUR_APP_NAME_INSTEAD_OF_BLOCK_CAPITALS
-git push heroku master
+<B> git init </B>
+
+<B> git add . </B>
+
+<B> git commit -m "first commit"</B>
+
+<B> heroku create YOUR_APP_NAME_INSTEAD_OF_BLOCK_CAPITALS</B>
+
+<B> git push heroku master </B>
+
 
 ! then you run the following
 
-heroku addons:add heroku-postgresql:hobby-dev
+<B> heroku addons:add heroku-postgresql:hobby-dev </B>
 
 ! This sets up a heroku hobby developer postgres db on you heroku account
 
 ! look: once it has provisioned a database you should get the following code:
 
-heroku addons:add heroku-postgresql:hobby-dev
+<B> heroku addons:add heroku-postgresql:hobby-dev </B>
 
 Creating heroku-postgresql:hobby-dev on ⬢ flaskpos... free
 Database has been created and is available
@@ -33,16 +38,19 @@ Created postgresql-fluffy-53405 as HEROKU_POSTGRESQL_ORANGE_URL
 
 ! next run  run the following command with the DB color tag Heroku gave you:
 
-heroku pg:promote HEROKU_POSTGRESQL_ORANGE_URL
+ <b> heroku pg:promote HEROKU_POSTGRESQL_ORANGE_URL </B>
 
 ! This links the db URL of the hobby dev created to your app that you deployed
 
 ! next are these commands:
 
-heroku run python
->>> from app import db
->>> db.create_all()
->>> exit()
+<b> heroku run python </B>
+
+<b> from app import db </B>
+
+<b> db.create_all() </B>
+
+<b> exit() </B>
 
 and BOOM!
 you got a landing page.
@@ -50,11 +58,11 @@ you got a landing page.
 
 ! to query the db run:
 
-heroku pg:psql
+<b> heroku pg:psql </B>
 
 and then when pg opens you can do as we learned in class:
 
-SELECT * FROM users;
+<b> SELECT * FROM users; </B>
 
 etc........
 
