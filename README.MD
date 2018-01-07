@@ -7,6 +7,10 @@
 
 ! run commands:
 
+<B> virtualenv venv </b>
+
+<b> . venv/bin/activate </b>
+
 <B> git init </B>
 
 <B> git add . </B>
